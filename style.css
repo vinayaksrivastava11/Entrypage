@@ -1,0 +1,147 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    padding: 0% 25% 0% 20%;
+    
+}
+
+
+
+.name1 , .idphno , .dates , .quantity12 , .q3bn , .buttons , .btninv{
+    display:flex;
+    font-size: 10%;
+    background-color: rgb(82, 59, 103);
+}
+
+.inv, .quinv , .inv3{
+     visibility: hidden;
+}
+.name1 , .idphno , .dates , .quantity12, .q3bn {
+    justify-content: space-around;
+    padding: 1% 5% 2% 5% ;
+}
+.btninv{
+    justify-content: space-around;
+    margin: -7% 5% 4% 5% ;
+}
+
+input{
+    width:100%;
+    border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size:100% ;
+}
+
+.dates input{
+    width: 103%;
+    
+    
+}
+
+
+.err1{
+    height: 50px;
+    width: 50px;
+}
+.entno{
+    background-color: purple;
+    height: 50px;
+    width:100%;
+    position: relative;
+    
+}
+#num{
+    position: relative;
+    top: -60px;
+    font-size: 10%;
+}
+
+.sub{
+    position: relative;
+    top: -60px;
+}
+
+
+
+.entno input{
+    height: 10px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.submit1 , .clear{
+    margin-top: 37%;
+    margin-left: -20%;
+    z-index: 100;
+}
+.clear{
+    margin-left:0;
+    
+}
+
+
+#saved{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.entrydiv0 {
+    background-color: white;
+    width: 10%;
+    
+    height: 80%;
+    
+}
+.entrydiv {
+    background-color: blue;
+    height: 17%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 10%;
+}
+.entrydiv1 {
+    background-color: white;
+    width: 35%;
+    
+    height: 80%;
+    
+}
+.entrydiv2 {
+    background-color: white;
+    width: 30%;
+    height: 80%;
+    
+    
+}
+.entrydiv3 {
+    background-color: white;
+    width: 15%;
+    height: 80%;
+    
+}
+
+h1{
+    text-align: center;
+    padding:3%;
+    font-size: 30%;
+
+}

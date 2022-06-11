@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor's Entry Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>Check Vendor Performance</h1>
+    <form id="myform"  onsubmit="return false;">
+    
+    <div class="name1">
+      <div class="namei">
+      Name: <br><br>
+      <input type="text"
+             name="name"
+             id="Uname"
+             placeholder="Enter the name here"
+             pattern="[A-Za-z]{1,20}"
+             
+             
+             
+               
+      >
+             
+             
+
+        </div>
+           
+        <div class="inv">
+          A<br>
+          <input type="text">
+          
+        </div>
+
+
+    </div>
+    <div class="idphno">
+         <div class="id">
+         BITS ID:<br><br> <input type="text"
+                         name="bitsid"
+                         placeholder="Enter the BITS ID here"
+                         id="bitsid"
+                         
+      
+                      >
+                     
+         </div>
+         <div class="no">
+         Phone No.:<br><br> <input type="tel"
+                           placeholder="Enter the Phone No. here" 
+                           id="phno"
+                           pattern="[0-9]{10}"
+                           
+                           
+                           
+                           >
+                         
+
+         </div>
+    </div>
+    <div class="dates">
+         <div class="exp">
+            Expected Dilevery:<br><br> <input type="date"
+            name="expected"
+            id="expd"
+            
+            
+            
+                               >
+         </div>
+         
+         <div class="recivd">
+            Received Date:<br><br> <input type="date"
+            name="received"
+            id="rcvdd"
+            
+            
+             
+                             >
+         </div>
+         
+    </div>
+    <div class="quantity12">
+          <div class="demd">
+            Quantity Demanded:<br><br> <input type="number"
+            name="demand"
+            placeholder="Quantity Demanded"
+            id="q1"
+            pattern=" 0+\.[0-9]*[1-9][0-9]*$"
+            onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+            
+            
+            > 
+          </div>
+         
+          <div class="rcvd">
+            Quantity Received:<br><br> <input type="number"
+            name="receive"
+            placeholder="Quantity Received"
+            id="q2"
+            onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+            
+            
+            > 
+            
+          </div>
+         
+    
+         
+    </div>
+    <div class="q3bn">
+        <div class="quantity3">
+        
+        Quantity Returned:<br><br> <input type="number"
+                                  name="returned"
+                                  placeholder="Quantity Returned"
+                                  id="q3"
+                                  onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                                  
+                                  > 
+                                  
+       </div>
+
+       <div class="quinv">
+        
+        B:<br> <input type="number"
+                                  
+                                  > 
+                                 
+       </div>
+      
+
+       
+
+    </div>
+
+            <div class="btninv">
+              <div class="inv3">
+                 
+                C:<br> <input type="number">
+              </div>
+              <div class="buttons">
+                <div>
+                <button class="submit1" type="submit">Submit</button>
+                
+                
+              </div>
+              <div>
+               <button  class="clear" type=reset> Clear</button> 
+              </div>
+             </div>
+
+            </div>
+           
+           
+           </form>
+           <div id="no">
+
+          </div>
+       
+     <div id="saved">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
